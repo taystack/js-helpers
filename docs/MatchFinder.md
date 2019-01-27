@@ -61,7 +61,22 @@ import { MatchFinder } from "@taystack/js-helpers";
 
 MatchFinder("foobar", "foo").matches /*
 [{
+  string: "foo",
+  match: true,
+}, {
+  string: "bar",
+}]
+*/
 
+MatchFinder("foobar has the word foo", "foo").matches /*
+[{
+  string: "foo",
+  match: true,
+}, {
+  string: "bar has the word ",
+}, {
+  string: "foo",
+  match: true,
 }]
 */
 ```
