@@ -6,7 +6,7 @@ Small JavaScript library with some helper functions that I find useful.
 
 This is a work in progress and contributions are encouraged.
 
-## Documentation (_Coming soon!_)
+## [Documentation](https://taystack.github.io/js-helpers/)
 
 ## Installation
 
