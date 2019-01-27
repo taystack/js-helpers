@@ -28,4 +28,13 @@ describe("MatchFinder(STRING, FILTER)", () => {
     const match5 = matcher.matches[4].string;
     expect(match5).toEqual("s");
   });
+
+  it("should reset the matches when setting the compare property", () => {
+    const matcher = new MatchFinder("foobar", "foo");
+    expect(matcher.matches[0].match).toEqual(true);
+    expect(matcher.matches[1].match).toEqual(undefined);
+    matcher.compare = "bar";
+    expect(matcher.matches[0].match).toEqual(undefined);
+    expect(matcher.matches[1].match).toEqual(true);
+  });
 });

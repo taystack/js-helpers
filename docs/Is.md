@@ -15,3 +15,29 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# Is
+
+Short-cut to `isArray`, `isObject`, `isString`, and `isTruthy`.
+
+### Use
+
+```javascript
+import {
+  Is,
+  isArray,
+  isObject,
+  isString,
+  isTruthy,
+} from "@taystack/js-helpers";
+
+// Is.array === isArray;
+// Is.object === isObject;
+// Is.string === isString;
+// Is.truthy === isTruthy;
+
+Is.array([]) === isArray([])       // true
+Is.object({}) === isObject({})     // true
+Is.string("") === isString("")     // true
+Is.truthy(true) === isTruthy(true) // true
+```

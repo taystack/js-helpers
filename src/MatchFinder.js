@@ -9,9 +9,7 @@ export default class MatchFinder {
     this.__string = string || "";
     this.__options = options;
     this.__compare = compare || "";
-    this.__matches = [];
-    this.__hasMatch = false;
-    this.__index = 0;
+    this.reset();
     if (!this.string && !this.string.length) return;
     if (!this.compare && !this.compare.length) return;
     this.findAllMatches(this.string);
@@ -21,17 +19,21 @@ export default class MatchFinder {
     return regExp.exec(string);
   }
 
-  get hasMatch() {
-    return this.__hasMatch;
-    // return !!this.matches.length && Any(this.matches, m => m.match);
+  reset() {
+    this.__matches = [];
+    this.__hasMatch = false;
+    this.__index = 0;
   }
 
-  get matches() {
-    return this.__matches;
-  }
+  get hasMatch() { return this.__hasMatch; }
 
-  get compare() {
-    return this.__compare;
+  get matches() { return this.__matches; }
+
+  get compare() { return this.__compare; }
+  set compare(compare) {
+    this.__compare = compare;
+    this.reset();
+    this.findAllMatches(this.string);
   }
 
   get string() {

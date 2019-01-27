@@ -15,3 +15,33 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# EitherOr
+
+## EitherOr (Array array)
+
+Ternary wrapper.
+
+### Arguments
+
+#### here
+
+Any value used to check in a ternary.
+
+#### there
+
+Any value used in the default return of a ternary.
+
+### Use
+
+```javascript
+import { EitherOr } from "@taystack/js-helpers";
+
+EitherOr(false, true)         // true
+EitherOr(true, false)         // true
+EitherOr("foobar", undefined) // "foobar"
+EitherOr(undefined, "foobar") // "foobar"
+EitherOr(false, false)        // false
+EitherOr(undefined, false)    // false
+EitherOr(false, undefined)    // undefined
+```
