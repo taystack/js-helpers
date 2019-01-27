@@ -39,7 +39,7 @@ Any `Number > from`
 import { Random } from "@taystack/js-helpers";
 
 const rand = Random(1, 10);
-// 0 <= rand <= 10
+// 1 <= rand <= 10
 ```
 
 ---
