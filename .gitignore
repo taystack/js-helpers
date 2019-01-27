@@ -1,4 +1,11 @@
-/coverage
+# logfiles
 /yarn-error.log
+
+# Jest --coverage
+/coverage
+
+# Vendor
 /node_modules
+
+# Build
 /lib
