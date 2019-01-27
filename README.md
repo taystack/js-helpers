@@ -21,3 +21,5 @@ npm i @taystack/js-helpers
 Transpiled with [babel](https://babeljs.io/)
 
 Tested with [jest](https://jestjs.io/)
+
+Licensed [MIT](https://opensource.org/licenses/MIT)
