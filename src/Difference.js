@@ -1,3 +1,5 @@
+import Has from "./Has";
+
 /*
 Difference(ARRAY1, ARRAY2)
 => Array
@@ -8,12 +10,13 @@ Params:
   ARRAY1: Array of String
   ARRAY2: Array of String
 */
-const Difference = (arr1, arr2) => {
+
+const Difference = (arr1, arr2, predicate) => {
   if (!arr1) return [];
   if (!arr2) return arr1;
   const ret = [];
   arr1.forEach((item) => {
-    if (arr2.indexOf(item) < 0) ret.push(item);
+    if (!Has(arr2, item, predicate)) ret.push(item);
   });
   return ret;
 };

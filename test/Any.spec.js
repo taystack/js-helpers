@@ -1,9 +1,8 @@
-import Any from "../src/Any";
+import Any, { AnyError } from "../src/Any";
 
 
 describe("Any(ARRAY, CB)", () => {
   it("should check if any value of ARRAY against CB, defaults to isTruthy", () => {
-    expect(Any()).toEqual(false);
     expect(Any([])).toEqual(false);
     expect(Any([false, false])).toEqual(false);
     expect(Any([false, true])).toEqual(true);
@@ -17,6 +16,10 @@ describe("Any(ARRAY, CB)", () => {
   });
 
   it("should raise any errors", () => {
+    expect(() => {
+      Any();
+    }).toThrowError(AnyError);
+
     expect(() => {
       Any([true], "foo");
     }).toThrowError(TypeError);

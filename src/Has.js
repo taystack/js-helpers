@@ -5,15 +5,25 @@ import {
 } from "./Is";
 
 
-const Has = (target, val) => {
-  if (!target) return !!target;
-  if (isString(target)) return !!target.match(val);
+const HasShortCircuit = {};
 
-  let array = target;
-  if (isObject(target)) {
-    array = Object.keys(target);
+const Has = (arr, target, predicate = x => x) => {
+  if (!arr)          return !!arr;
+  if (isString(arr)) return !!arr.match(target);
+  if (isObject(arr)) return Object.keys(arr).indexOf(target) > -1;
+
+  let has = false;
+  try {
+    // Check target agains arr using predicate Function
+    const targetPredicate = predicate(target);
+    arr.forEach((item) => {
+      if (targetPredicate === predicate(item)) throw HasShortCircuit;
+    });
+  } catch (e) {
+    if (e !== HasShortCircuit) throw e;
+    has = true;
   }
-  return array.indexOf(val) > -1;
+  return has;
 };
 
 export default Has;
