@@ -18,7 +18,7 @@
 
 # EitherOr
 
-## EitherOr (Array array)
+## EitherOr (here, there)
 
 Ternary wrapper.
 

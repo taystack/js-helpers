@@ -57,7 +57,7 @@ export default class MatchFinder {
     });
     const end = fullString.slice(found.index + string.length, fullString.length);
     if (end.length) {
-      this.findAllMatches(end, found.index + string.length);
+      this.findAllMatches(end);
     }
   }
 
