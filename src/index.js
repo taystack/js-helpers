@@ -3,13 +3,11 @@ import Any from "./Any";
 import Classnames from "./Classnames";
 import Clone from "./Clone";
 import Compact from "./Compact";
-import Counter from "./Counter";
 import Difference from "./Difference";
 import EitherOr from "./EitherOr";
 import Every from "./Every";
 import Has from "./Has";
 import Is from "./Is";
-import MatchFinder from "./MatchFinder";
 import Merge from "./Merge";
 import ModIndex from "./ModIndex";
 import Omit from "./Omit";
@@ -24,13 +22,11 @@ export {
   Classnames,
   Clone,
   Compact,
-  Counter,
   Difference,
   EitherOr,
   Every,
   Has,
   Is,
-  MatchFinder,
   Merge,
   ModIndex,
   Omit,
