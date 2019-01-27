@@ -8,7 +8,7 @@ This is a work in progress and contributions are encouraged.
 
 ## Documentation (_Coming soon!_)
 
-## Installation (_Coming soon!_)
+## Installation
 
 ```bash
 yarn add @taystack/js-helpers
