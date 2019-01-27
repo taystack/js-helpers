@@ -15,3 +15,29 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# Merge
+
+## Merge (Object object1[, ...Object objects])
+
+Overwrites the values of _object1_ with values of _objects_. Adds all missing values of _objects_ to _object1_.
+
+### Arguments
+
+#### Object object1
+
+Any object
+
+#### [...Object] objects
+
+Any number of objects to overwrite _object1_ values with.
+
+### Use
+
+```javascript
+import { Merge } from "@taystack/js-helpers";
+
+const obj = {a: 1, b: 1};
+Merge(obj, {b: 2}, {c: 3});
+obj // {a: 1, b: 2, c: 3};
+```
