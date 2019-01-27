@@ -1,0 +1,26 @@
+{
+  "name": "@taystack/js-helpers",
+  "version": "0.1.0",
+  "description": "Lightweight lib of some javascript helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taystack/js-helpers.git"
+  },
+  "keywords": [
+    "javascript",
+    "helpers",
+    "omit",
+    "merge",
+    "clone"
+  ],
+  "author": "taystack (Taylor Stackpole)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taystack/js-helpers/issues"
+  },
+  "homepage": "https://github.com/taystack/js-helpers#readme"
+}
