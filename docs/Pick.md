@@ -15,3 +15,35 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# Pick
+
+## Pick (Object object, Array keys, [Boolean clone])
+
+Returns new _object_ with only keys from _array_. References preserved unless _clone_ is provided.
+
+Opposite of [Omit](./Omit.md#omit).
+
+### Arguments
+
+#### `Object object`
+
+Any object
+
+#### `Array keys`
+
+Should be array of String. `[String]`
+
+#### `Boolean clone`
+
+If present will return a new object without references to _object_. See [Clone](./Clone.md#clone).
+
+### Use
+
+```javascript
+import { Pick } from "@taystack/js-helpers";
+
+const obj1 = {a: 1, b: 2, c: 3};
+const obj2 = Pick(obj1, ["c"]);
+obj2;                                // {c: 3}
+```

@@ -1,4 +1,4 @@
-import Has from "./Has";
+import { Has } from ".";
 
 /*
 Difference(ARRAY1, ARRAY2)

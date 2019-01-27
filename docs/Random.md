@@ -15,3 +15,28 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# Random
+
+## Random (Number from=0, Number to=1)
+
+Returns `from <= random number <= to`
+
+### Arguments
+
+#### `Number from`
+
+Any `Number < to`
+
+#### `Number from`
+
+Any `Number > from`
+
+### Use
+
+```javascript
+import { Random } from "@taystack/js-helpers";
+
+const rand = Random(1, 10);
+// 0 <= rand <= 10
+```

@@ -8,7 +8,7 @@ Params:
   ...CLASSNAMES: Any number of String, Object, Array
 */
 
-import Compact from "./Compact";
+import { Compact } from ".";
 
 
 const Classnames = (...classnames) => {

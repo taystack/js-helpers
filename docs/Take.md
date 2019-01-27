@@ -15,3 +15,28 @@
 - Take
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# Take
+
+## Take (Array array, Number count)
+
+Takes first `count` items from `array`
+
+### Arguments
+
+#### `Array array`
+
+Any `Array`
+
+#### `Number count`
+
+Any `Number`
+
+### Use
+
+```javascript
+import { Take } from "@taystack/js-helpers";
+
+const array = [1,2,3,4,5];
+Take(array, 3);            // [1,2,3]
+```

@@ -15,3 +15,30 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# ModIndex
+
+## ModIndex (Array array, index)
+
+Treats _array_ as a linked list. An _array_ with `3` items at index `3` would return _array[0]_. Normally _array[3]_ would be undefined.
+
+### Arguments
+
+#### Array array
+
+Any array
+
+#### Number index
+
+Any non-negative, non-infinity number.
+
+### Use
+
+```javascript
+import { ModIndex } from "@taystack/js-helpers";
+
+const arr = [1,2,3];
+ModIndex(arr, 0)   // 1
+ModIndex(arr, 3)   // 1
+ModIndex(arr, 300) // 1
+```

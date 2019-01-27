@@ -1,6 +1,8 @@
-const Pick = (obj, keys) => {
+const Pick = (obj, keys, clone) => {
   const ret = {};
-  keys.forEach(k => (ret[k] = obj[k]));
+  keys.forEach(k => (
+    if (obj[k]) ret[k] = clone ? Clone(obj[k]) : obj[k];
+  ));
   return ret;
 };
 

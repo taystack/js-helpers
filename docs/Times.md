@@ -15,3 +15,61 @@
 - [Take](./Take.md#take)
 - Times
 - [Unique](./Unique.md#unique)
+
+# Times
+
+## Times (Number count, Function cb[, thisArg])
+
+Times first `count` items from `array`
+
+### Arguments
+
+#### `Number count`
+
+Any `Array`
+
+#### `Function cb`
+
+Any `Number`
+
+#### `thisArg` _optional_
+
+Will be the value of `this` within `cb`.
+
+### Use
+
+```javascript
+import { Times } from "@taystack/js-helpers";
+
+const array
+const cb = () => {
+
+}
+let val = 1;
+Times(4, (i) => val += i);
+// val + i
+// 1   + 0 = 1
+// 1   + 1 = 2
+// 2   + 2 = 4
+// 4   + 3 = 7
+```
+
+In a bit of action:
+
+```javascript
+class Fighter {
+  constructor() {
+    this.attacks = 3;
+  }
+
+  get attack() {
+    return Random(1, 4);
+  }
+
+  attackTarget(target) {
+    Times(this.attacks, () => {
+      target.takeDamage(this.attack);
+    });
+  }
+}
+```
