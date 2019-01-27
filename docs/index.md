@@ -19,7 +19,7 @@
  - [Times](./Times.md#times)
  - [Unique](./Unique.md#unique)
 
-This is a JavaScript library to help with some common, everyday JavaScript tasks. This library was designed to be a lightweight and helpful set of methods that do what they say like they do.
+This is a JavaScript library to help with some common, everyday JavaScript tasks. This library was designed to be a lightweight and helpful set of methods that do what they say they do.
 
 # Installation
 
