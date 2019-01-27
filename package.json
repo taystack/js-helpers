@@ -4,7 +4,7 @@
   "description": "Lightweight lib of some javascript helpers",
   "author": "Taylor Stackpole (@taystack)",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": ". ./scripts/test.sh",
     "build": ". ./scripts/build.sh",
