@@ -1,10 +1,18 @@
-const Unique = (arr) => {
+const Unique = (arr, predicate) => {
   const ret = [];
-  arr.forEach((item) => {
-    if (ret.indexOf(item) < 0) {
-      ret.push(item);
-    }
-  });
+  if (predicate) {
+    arr.forEach((item) => {
+      if (ret.map(predicate).indexOf(predicate(item)) < 0) {
+        ret.push(item);
+      }
+    });
+  } else {
+    arr.forEach((item) => {
+      if (ret.indexOf(item) < 0) {
+        ret.push(item);
+      }
+    });
+  }
   return ret;
 };
 

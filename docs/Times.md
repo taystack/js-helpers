@@ -26,11 +26,11 @@ Times first `count` items from `array`
 
 #### `Number count`
 
-Any `Array`
+Any `Number`
 
 #### `Function cb`
 
-Any `Number`
+Any `Function` to call `count` times.
 
 #### `thisArg` _optional_
 
@@ -41,10 +41,6 @@ Will be the value of `this` within `cb`.
 ```javascript
 import { Times } from "@taystack/js-helpers";
 
-const array
-const cb = () => {
-
-}
 let val = 1;
 Times(4, (i) => val += i);
 // val + i

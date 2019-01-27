@@ -15,3 +15,32 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - Unique
+
+# Unique
+
+## Unique (Array array[, Function predicate= x=> x])
+
+Unique first `count` items from `array`
+
+### Arguments
+
+#### `Array array`
+
+Any `Array`
+
+#### `Function predicate` _optional_
+
+Return value of function is used to
+
+### Use
+
+```javascript
+import { Unique } from "@taystack/js-helpers";
+
+const array = [2,2,3,3,3,4];
+Unique(array)                // [2,3,4]
+
+// With a predicate
+const collection = [{a: 1}, {a: 1}, {a: 3}];
+Unique(collection, x => x.a);                // [{a: 1}, {a: 3}];
+```
