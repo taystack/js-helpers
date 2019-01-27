@@ -12,10 +12,11 @@ Params:
 import { isTruthy } from "./Is";
 
 
+class AnyError extends Error {}
 const AnyShortCircuit = {};
 
-const Any = (arr = [], cb = isTruthy) => {
-  if (!arr.length) return false;
+const Any = (arr, cb = isTruthy) => {
+  if (!(arr instanceof Array)) throw AnyError("Missing Array argument");
   let match = false;
   try {
     arr.forEach((item) => {
@@ -30,3 +31,7 @@ const Any = (arr = [], cb = isTruthy) => {
 };
 
 export default Any;
+
+export const docs = `
+# Any(Array, Function)
+`;
