@@ -1,5 +1,5 @@
-- Any
-- [Clone](./Clone.md#clone)
+- [Any](./Any.md#any)
+- Clone
 - [Compact](./Compact.md#compact)
 - [Difference](./Difference.md#difference)
 - [EitherOr](./EitherOr.md#eitheror)
@@ -18,7 +18,7 @@
 
 # Any
 
-## Any (Array array, [Function predicate=JsHelpers.isTruthy])
+## JsHelpers.Any (Array array, [Function predicate=JsHelpers.isTruthy])
 
 Checks if _any_ item of _***Array*** array_ returns true from  _***Function*** predicate_.
 
