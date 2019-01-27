@@ -4,7 +4,9 @@
   "description": "Lightweight lib of some javascript helpers",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": ". ./scripts/test.sh",
+    "build": ". ./scripts/build.sh",
+    "publish-coverage": ". ./scripts/publish_coverage.sh"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,20 @@
   "bugs": {
     "url": "https://github.com/taystack/js-helpers/issues"
   },
-  "homepage": "https://github.com/taystack/js-helpers#readme"
+  "homepage": "https://github.com/taystack/js-helpers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "codecov": "^3.1.0",
+    "jest": "^24.0.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ]
+  }
 }
