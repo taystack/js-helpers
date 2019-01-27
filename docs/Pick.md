@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
@@ -47,3 +48,7 @@ const obj1 = {a: 1, b: 2, c: 3};
 const obj2 = Pick(obj1, ["c"]);
 obj2;                                // {c: 3}
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - Compact
@@ -35,3 +36,7 @@ import { Compact } from "@taystack/js-helpers";
 
 Compact([1, false, "", {}, [], null, undefined]) // [1]
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

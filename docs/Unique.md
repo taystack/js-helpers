@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
@@ -44,3 +45,7 @@ Unique(array)                // [2,3,4]
 const collection = [{a: 1}, {a: 1}, {a: 3}];
 Unique(collection, x => x.a);                // [{a: 1}, {a: 3}];
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

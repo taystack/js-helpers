@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
@@ -40,3 +41,7 @@ import { Random } from "@taystack/js-helpers";
 const rand = Random(1, 10);
 // 0 <= rand <= 10
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
@@ -42,3 +43,7 @@ ModIndex(arr, 0)   // 1
 ModIndex(arr, 3)   // 1
 ModIndex(arr, 300) // 1
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

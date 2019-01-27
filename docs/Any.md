@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - Any
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
@@ -41,3 +42,7 @@ const items = [5,6,7,8,9]
 Any(items, x => (x > 8)); // true
 Any(items, x => (x < 5)); // false
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

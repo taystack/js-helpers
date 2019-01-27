@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - Clone
 - [Compact](./Compact.md#compact)
@@ -44,3 +45,7 @@ clone.a               // {b: 1}
 original.a == a       // true
 original.a == clone.a // false
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

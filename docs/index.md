@@ -1,7 +1,6 @@
 # JsHelpers Documentation
 
-For installation instructions, please refer to the [source](https://github.com/taystack/js-helpers#installation).
-
+ - [Installation](#installation)
  - [Any](./Any.md#any)
  - [Clone](./Clone.md#clone)
  - [Compact](./Compact.md#compact)
@@ -20,6 +19,21 @@ For installation instructions, please refer to the [source](https://github.com/t
  - [Times](./Times.md#times)
  - [Unique](./Unique.md#unique)
 
+This is a JavaScript library to help with some common, everyday JavaScript tasks. This library was designed to be a lightweight and helpful set of methods that do what they say like they do.
+
+# Installation
+
+This project can be installed as a node package module from [NPM](https://www.npmjs.com/package/@taystack/js-helpers).
+
+```bash
+yarn add @taystack/js-helpers
+```
+or `npm`
+```bash
+npm i @taystack/js-helpers
+```
+
 
 ---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
 Author: [taystack](https://github.com/taystack)

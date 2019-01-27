@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
@@ -41,3 +42,7 @@ const obj = {a: 1, b: 1};
 Merge(obj, {b: 2}, {c: 3});
 obj // {a: 1, b: 2, c: 3};
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)

@@ -1,3 +1,4 @@
+- [Installation](#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
@@ -50,3 +51,7 @@ const array4 = [{id: 3}, {id: 4}];
 Difference(array3, array4, x => x.id);
 // [{id: 1}, {id: 2}];
 ```
+
+---
+Source: [@taystack/js-helpers](https://github.com/taystack/js-helpers) hosted on GitHub
+Author: [taystack](https://github.com/taystack)
