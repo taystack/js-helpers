@@ -16,28 +16,31 @@
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
 
-# Any
+# Clone
 
-## JsHelpers.Any (Array array, [Function predicate=JsHelpers.isTruthy])
+## Clone (Object object)
 
-Checks if _any_ item of _***Array*** array_ returns true from  _***Function*** predicate_.
+Clone an _***Object***_ without keeping references.
 
 ### Arguments
 
-#### Array array
+#### Object object
 
-Collection of items to iterate over with _***Function*** predicate_.
-
-#### [Function predicate=JsHelpers.isTruthy]
-
-Function to invoke per item of _***Array*** array_. Iteration is stopped once _predicate_ returns `true`.
+Any object. Circular references not allowed.
 
 ### Use
 
 ```javascript
-import { Any } from "@taystack/js-helpers";
+import { Clone } from "@taystack/js-helpers";
 
-const items = [5,6,7,8,9]
-Any(items, x => (x > 8)); // true
-Any(items, x => (x < 5)); // false
+const original = {a: {b: 1}};
+const a = original.a;
+const clone = Clone(original);
+
+original.a            // {b: 1}
+a                     // {b: 1}
+clone.a               // {b: 1}
+
+original.a == a       // true
+original.a == clone.a // false
 ```

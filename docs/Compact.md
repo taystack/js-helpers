@@ -15,3 +15,23 @@
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
+
+# Compact
+
+## Compact (Array array)
+
+Create new array without falsey values of _***Array*** array_.
+
+### Arguments
+
+#### Array array
+
+An array of items.
+
+### Use
+
+```javascript
+import { Compact } from "@taystack/js-helpers";
+
+Compact([1, false, "", {}, [], null, undefined]) // [1]
+```

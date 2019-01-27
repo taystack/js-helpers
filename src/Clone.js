@@ -1,4 +1,4 @@
-// Sufficient for this project.
+// Sufficient for this project for now.
 const Clone = (obj) => {
   return JSON.parse(JSON.stringify(obj));
 };
