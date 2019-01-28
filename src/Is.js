@@ -1,6 +1,8 @@
 export const isArray = (item) => (item instanceof Array);
 
-export const isObject = (item) => (!isArray(item) && item instanceof Object);
+export const isFunction = (item) => (item instanceof Function);
+
+export const isObject = (item) => (!isArray(item) && item instanceof Object && !isFunction(item));
 
 export const isString = (item) => (typeof item === "string");
 
