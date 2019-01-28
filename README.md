@@ -1,4 +1,4 @@
-![JsHelpers](./JsHelpers.png)
+![JsHelpers](./docs/JsHelpers.png)
 
 [![codecov](https://codecov.io/gh/taystack/js-helpers/branch/master/graph/badge.svg)](https://codecov.io/gh/taystack/js-helpers) [![Build Status](https://travis-ci.org/taystack/js-helpers.svg?branch=master)](https://travis-ci.org/taystack/js-helpers)
 
