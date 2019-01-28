@@ -1,6 +1,6 @@
 # JavaScript Helpers
 
-![codecov](https://codecov.io/gh/taystack/js-helpers/commit/c7514678341ece9a0a53f06658bee5044c4c8e88/graphs/badge.svg)
+[![codecov](https://codecov.io/gh/taystack/js-helpers/branch/master/graph/badge.svg)](https://codecov.io/gh/taystack/js-helpers)
 
 Small JavaScript library with some helper functions that I find useful.
 
