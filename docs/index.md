@@ -1,4 +1,6 @@
-# JsHelpers Documentation
+[JsHelpers](../JsHelpers.png)
+
+# Documentation
 
  - [Installation](#installation)
  - [Any](./Any.md#any)
