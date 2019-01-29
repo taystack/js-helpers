@@ -15,6 +15,7 @@ describe("JsHelpers", () => {
       "Merge",
       "ModIndex",
       "Omit",
+      "Once",
       "Pick",
       "Random",
       "Take",
