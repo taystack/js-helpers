@@ -11,6 +11,7 @@ import MatchFinder from "./MatchFinder";
 import Merge from "./Merge";
 import ModIndex from "./ModIndex";
 import Omit from "./Omit";
+import Once from "./Once";
 import Pick from "./Pick";
 import Random from "./Random";
 import Take from "./Take";
@@ -31,6 +32,7 @@ export {
   Merge,
   ModIndex,
   Omit,
+  Once,
   Pick,
   Random,
   Take,
