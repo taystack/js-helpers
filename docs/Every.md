@@ -1,10 +1,11 @@
-- [Installation](#installation)
+- [Installation](./#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
 - [Difference](./Difference.md#difference)
 - [EitherOr](./EitherOr.md#eitheror)
 - Every
+- [Find](./Find.md#find)
 - [Has](./Has.md#has)
 - [Is](./Is.md#is)
 - [MatchFinder](./MatchFinder.md#matchfinder)

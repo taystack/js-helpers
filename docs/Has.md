@@ -1,10 +1,11 @@
-- [Installation](#installation)
+- [Installation](./#installation)
 - [Any](./Any.md#any)
 - [Clone](./Clone.md#clone)
 - [Compact](./Compact.md#compact)
 - [Difference](./Difference.md#difference)
 - [EitherOr](./EitherOr.md#eitheror)
 - [Every](./Every.md#every)
+- [Find](./Find.md#find)
 - Has
 - [Is](./Is.md#is)
 - [MatchFinder](./MatchFinder.md#matchfinder)
@@ -19,7 +20,7 @@
 
 # Has
 
-## Has ((Array array | Object object | String string), target, [Function predicate=JsHelpers.isTruthy])
+## `Has((Array array | Object object | String string), target, [Function predicate=JsHelpers.isTruthy])`
 
 Checks if _***Array*** array_ returns true from  _***Function*** predicate_.
 
