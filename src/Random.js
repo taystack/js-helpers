@@ -1,5 +1,5 @@
-const Random = (from = 0, to = 1) => {
-  return Math.floor(Math.random() * to) + from;
+const Random = (min = 0, max = 1) => {
+  return Math.random() * (+max - +min) + +min
 };
 
 export default Random;
