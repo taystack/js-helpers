@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 ![JsHelpers](https://github.com/taystack/js-helpers/blob/master/docs/JsHelpers.png?raw=true)
 
 [![codecov](https://codecov.io/gh/taystack/js-helpers/branch/master/graph/badge.svg)](https://codecov.io/gh/taystack/js-helpers) [![Build Status](https://travis-ci.org/taystack/js-helpers.svg?branch=master)](https://travis-ci.org/taystack/js-helpers)
