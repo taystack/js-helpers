@@ -9,40 +9,39 @@
 - [Has](./Has.md#has)
 - [Is](./Is.md#is)
 - [MatchFinder](./MatchFinder.md#matchfinder)
-- Merge
+- [Merge](./Merge.md#merge)
 - [ModIndex](./ModIndex.md#modindex)
 - [Omit](./Omit.md#omit)
 - [Pick](./Pick.md#pick)
 - [Random](./Random.md#random)
-- [Reduce](./Reduce.md#reduce)
+- Reduce
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)
 
-# Merge
+# Reduce
 
-## Merge (Object object1[, ...Object objects])
+## Reduce (Number from=0, Number to=1)
 
-Overwrites the values of _object1_ with values of _objects_. Adds all missing values of _objects_ to _object1_.
+Returns `from <= random number <= to`
 
 ### Arguments
 
-#### Object object1
+#### `Number from`
 
-Any object
+Any `Number < to`
 
-#### [...Object] objects
+#### `Number from`
 
-Any number of objects to overwrite _object1_ values with.
+Any `Number > from`
 
 ### Use
 
 ```javascript
-import { Merge } from "@taystack/js-helpers";
+import { Reduce } from "@taystack/js-helpers";
 
-const obj = {a: 1, b: 1};
-Merge(obj, {b: 2}, {c: 3});
-obj // {a: 1, b: 2, c: 3};
+const rand = Reduce(1, 10);
+// 1 <= rand <= 10
 ```
 
 ---

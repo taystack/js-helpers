@@ -14,6 +14,7 @@
 - [Omit](./Omit.md#omit)
 - Pick
 - [Random](./Random.md#random)
+- [Reduce](./Reduce.md#reduce)
 - [Take](./Take.md#take)
 - [Times](./Times.md#times)
 - [Unique](./Unique.md#unique)

@@ -5,6 +5,7 @@ import Compact from "./Compact";
 import Difference from "./Difference";
 import EitherOr from "./EitherOr";
 import Every from "./Every";
+import Flatten from "./Flatten";
 import Has from "./Has";
 import Is from "./Is";
 import MatchFinder from "./MatchFinder";
@@ -14,6 +15,7 @@ import Omit from "./Omit";
 import Once from "./Once";
 import Pick from "./Pick";
 import Random from "./Random";
+import Reduce from "./Reduce";
 import Take from "./Take";
 import Times from "./Times";
 import Unique from "./Unique";
@@ -26,6 +28,7 @@ export {
   Difference,
   EitherOr,
   Every,
+  Flatten,
   Has,
   Is,
   MatchFinder,
@@ -35,6 +38,7 @@ export {
   Once,
   Pick,
   Random,
+  Reduce,
   Take,
   Times,
   Unique,
